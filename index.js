@@ -117,6 +117,7 @@ function magicNumberFn() {
     let gameOn = true;
     while (gameOn) {
         let guess = parseInt(prompt(`please enter your guess number:`))
+        console.log(`user guess ${guess}`)
         if (guess === magicNumber) {
             console.log(`congratulations! the magic number is ${magicNumber}`)
             gameOn = false;
@@ -160,4 +161,4 @@ function magicNumberFn() {
 // concertDisplay("J");
 
 // desktopItemsFn();
-magicNumberFn()
+// magicNumberFn()
